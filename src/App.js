@@ -6,22 +6,27 @@ import Body2 from './Body/Body2';
 import Body3 from './Body/Body3';
 import Footer from './Footer';
 
-import PopupLogin from './Header/Popup/Login';
+// import PopupLogin from './Header/Popup/Login';
+
+import 'bootstrap/dist/css/bootstrap.min.css';
+import '../node_modules/font-awesome/css/font-awesome.min.css';
+
+import './Body/CSS/introduce.css';
+import './Footer/CSS/footer.css';
 
 class App extends Component {
   render() {
     return (
       <div>
         <Header />
-        <PopupLogin />
-  
+        {/* <PopupLogin /> */}
         <Body1 />
         <div class="container">
-          <br></br>
+          <br />
           <Body2 />
-          <br></br>
+          <br />
           <Body3 />
-          <br></br>
+          <br />
         </div>
         <Footer />
       </div>
