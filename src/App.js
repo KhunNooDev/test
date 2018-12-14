@@ -10,8 +10,9 @@ import Footer from './Footer';
 
 import 'bootstrap/dist/css/bootstrap.min.css';
 import '../node_modules/font-awesome/css/font-awesome.min.css';
+import 'animate.css/animate.min.css';
 
-import './Body/CSS/introduce.css';
+import './Body/CSS/body1.css';
 import './Footer/CSS/footer.css';
 
 class App extends Component {

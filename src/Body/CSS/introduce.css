@@ -22,7 +22,6 @@ body {
 }
   
 .layer .content-body {
-  /* width: 25%; */
   position: absolute;
   top: 50%;
   text-align: center;
@@ -35,6 +34,14 @@ body {
   width: 30%;
   top: 50%;
   left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.layer .content-body video {
+  position: absolute;
+  width: 100%;
+  z-index: -1;
+  /* overflow: hidden; */
   transform: translate(-50%, -50%);
 }
   
