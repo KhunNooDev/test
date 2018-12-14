@@ -4,24 +4,24 @@ self.__precacheManifest = [
     "url": "/test/static/media/fontawesome-webfont.af7ae505.woff2"
   },
   {
-    "revision": "261c5d8f758ea0df9755",
-    "url": "/test/static/css/main.de336714.chunk.css"
+    "revision": "c42056a475c2cf4a71a3",
+    "url": "/test/static/css/main.c0c921e5.chunk.css"
   },
   {
     "revision": "912ec66d7572ff821749319396470bde",
     "url": "/test/static/media/fontawesome-webfont.912ec66d.svg"
   },
   {
-    "revision": "777e7577b39d6a474f59",
-    "url": "/test/static/js/1.777e7577.chunk.js"
+    "revision": "4431f1a8b60c660941f8",
+    "url": "/test/static/js/1.4431f1a8.chunk.js"
   },
   {
     "revision": "5ad1e219c88e053e0b1e",
     "url": "/test/static/js/runtime~main.5ad1e219.js"
   },
   {
-    "revision": "261c5d8f758ea0df9755",
-    "url": "/test/static/js/main.261c5d8f.chunk.js"
+    "revision": "c42056a475c2cf4a71a3",
+    "url": "/test/static/js/main.c42056a4.chunk.js"
   },
   {
     "revision": "fee66e712a8a08eef5805a46892932ad",
@@ -36,11 +36,11 @@ self.__precacheManifest = [
     "url": "/test/static/media/fontawesome-webfont.b06871f2.ttf"
   },
   {
-    "revision": "777e7577b39d6a474f59",
-    "url": "/test/static/css/1.a61bc30e.chunk.css"
+    "revision": "4431f1a8b60c660941f8",
+    "url": "/test/static/css/1.8db427db.chunk.css"
   },
   {
-    "revision": "21a6921305f761a41ddea3380c9feb06",
+    "revision": "24e956b24712506f2b296aeb875abaa8",
     "url": "/test/index.html"
   }
 ];
