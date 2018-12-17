@@ -28,27 +28,24 @@ export default class Example extends React.Component {
   }
   render() {
     return (
-      <div>
+      <div> 
         <Navbar color="dark" dark expand="md">
           <NavbarBrand href="/">TouchMyLike</NavbarBrand>
           <NavbarToggler onClick={this.toggle} />
           <Collapse isOpen={this.state.isOpen} navbar>
             <Nav className="ml-auto" navbar>
               <NavItem>
-                <NavLink href="/#">Home</NavLink>
+                <NavLink href={`${process.env.PUBLIC_URL}/#/`}><i className="fa fa-home" ariahidden="true"></i> - Home</NavLink>
               </NavItem>
               <NavItem>
-                <NavLink href="/class">Class</NavLink>
+                <NavLink href={`${process.env.PUBLIC_URL}/#/ClassRoom`}><i className="fa fa-book" ariahidden="true"></i> - ClassRoom</NavLink>
               </NavItem>
               <NavItem>
-                <NavLink href="/about">About</NavLink>
+                <NavLink href={`${process.env.PUBLIC_URL}/#/About`}><i className="fa fa-commenting" ariahidden="true"></i> - About</NavLink>
               </NavItem>
-              <NavItem>
-                <NavLink href="https://github.com">GitHub</NavLink>
-              </NavItem>
-              <UncontrolledDropdown nav inNavbar>
+              {/* <UncontrolledDropdown nav inNavbar>
                 <DropdownToggle nav caret>
-                  <img  class="rounded-circle" src="https://bit.ly/2Uw8yA8" alt="Generic placeholder image" width="30" height="30" />
+                  <i className="fa fa-user fa-lg" ariahidden="ture"></i>
                 </DropdownToggle>
                 <DropdownMenu right>
                   <DropdownItem>
@@ -63,6 +60,20 @@ export default class Example extends React.Component {
                   <DropdownItem divider />
                   <DropdownItem>
                     Edit Profile
+                  </DropdownItem>
+                </DropdownMenu>
+              </UncontrolledDropdown> */}
+              <UncontrolledDropdown nav inNavbar>
+                <DropdownToggle nav caret>
+                  <i className="fa fa-language fa-lg" ariahidden="ture"></i> ภาษา
+                </DropdownToggle>
+                <DropdownMenu right>
+                  <DropdownItem>
+                    English
+                  </DropdownItem>
+                  <DropdownItem divider />
+                  <DropdownItem>
+                    ภาษาไทย
                   </DropdownItem>
                 </DropdownMenu>
               </UncontrolledDropdown>

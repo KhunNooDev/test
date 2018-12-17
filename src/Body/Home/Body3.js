@@ -1,21 +1,27 @@
-import React from 'react';
+import React, { Component } from 'react';
 import Iframe from 'react-iframe';
 import { Media } from 'reactstrap';
 import ScrollAnimation from 'react-animate-on-scroll';
 
-const Body3 = () => {
+class Body3 extends Component {
+  constructor (props) {
+    super(props);
+
+    this.state = {
+        youtobeURL: 'https://www.youtube.com/embed/kdHwufi3FYU'
+    }
+}
+render(){
   return (
-    <div class="row">
-      <ScrollAnimation animateIn='fadeIn' animateOut='fadeOut'>
-        <Iframe url="https://www.youtube.com/embed/kdHwufi3FYU"
+    <div className="row">
+        <Iframe url={this.state.youtobeURL}
         width="560px"
         height="315px"
         display="initial"
         position="relative"
         class="col-lg-4"
         allowFullScreen/>
-      </ScrollAnimation>
-      <div class="col-lg-6">
+      <div className="col-lg-6">
       <ScrollAnimation animateIn='fadeIn' animateOut='fadeOut'>
         <Media body >
           <Media heading>
@@ -27,6 +33,7 @@ const Body3 = () => {
       </div>
     </div>
   );
-};
+}
+}
 
 export default Body3;

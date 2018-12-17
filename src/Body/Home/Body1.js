@@ -6,26 +6,27 @@ class Body1 extends Component {
     super(props);
 
     this.state = {
-        videoURL: 'https://bit.ly/2SOqqVj'
+        videoURL: 'https://bit.ly/2SOqqVj',
+        imgLogoURL: 'https://bit.ly/2DqFDIw'
     }
 }
   render() {
     return (
-      <div id="wrapper" class="skewed">
-        <div class="layer top">
-        <div class="content-wrap">
-          <div class="content-body">
+      <div id="wrapper" className="skewed">
+        <div className="layer top">
+        <div className="content-wrap">
+          <div className="content-body">
             <video id="background-video" loop autoPlay>
                 <source src={this.state.videoURL} type="video/mp4" />
                 <source src={this.state.videoURL} type="video/ogg" />
                 Your browser does not support the video tag.
              </video>
           </div>          
-            <img src="https://bit.ly/2DqFDIw" />
+            <img className="w-auto h-50" src={this.state.imgLogoURL} alt="Logo" width="250" height="250"  />
           </div>
         </div>
-        <div class="layer bottom">
-          <div class="content-body">
+        <div className="layer bottom">
+          <div className="content-body">
             <ScrollAnimation animateIn='fadeIn' animateOut='fadeOut'>
               <h1>TouchMyLike</h1>
             </ScrollAnimation>
