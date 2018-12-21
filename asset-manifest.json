@@ -1,10 +1,10 @@
 {
-  "main.css": "/test/static/css/main.4448159b.chunk.css",
-  "main.js": "/test/static/js/main.d99fbaf9.chunk.js",
-  "main.js.map": "/test/static/js/main.d99fbaf9.chunk.js.map",
+  "main.css": "/test/static/css/main.bc979f16.chunk.css",
+  "main.js": "/test/static/js/main.300a9cc8.chunk.js",
+  "main.js.map": "/test/static/js/main.300a9cc8.chunk.js.map",
   "static/css/1.ed288be5.chunk.css": "/test/static/css/1.ed288be5.chunk.css",
-  "static/js/1.26815be0.chunk.js": "/test/static/js/1.26815be0.chunk.js",
-  "static/js/1.26815be0.chunk.js.map": "/test/static/js/1.26815be0.chunk.js.map",
+  "static/js/1.7373492b.chunk.js": "/test/static/js/1.7373492b.chunk.js",
+  "static/js/1.7373492b.chunk.js.map": "/test/static/js/1.7373492b.chunk.js.map",
   "runtime~main.js": "/test/static/js/runtime~main.5ad1e219.js",
   "runtime~main.js.map": "/test/static/js/runtime~main.5ad1e219.js.map",
   "static/media/TML.png": "/test/static/media/TML.6a1f24f7.png",
@@ -12,9 +12,9 @@
   "static/media/logo3.png": "/test/static/media/logo3.40164191.png",
   "static/media/font-awesome.min.css": "/test/static/media/fontawesome-webfont.912ec66d.svg",
   "static/media/logo1.png": "/test/static/media/logo1.45258559.png",
+  "static/css/main.bc979f16.chunk.css.map": "/test/static/css/main.bc979f16.chunk.css.map",
   "static/css/1.ed288be5.chunk.css.map": "/test/static/css/1.ed288be5.chunk.css.map",
-  "static/css/main.4448159b.chunk.css.map": "/test/static/css/main.4448159b.chunk.css.map",
   "index.html": "/test/index.html",
-  "precache-manifest.7925e8b7e906ebdfbb7c921e609f01cf.js": "/test/precache-manifest.7925e8b7e906ebdfbb7c921e609f01cf.js",
+  "precache-manifest.a4acf4b8b13cee68dbac4063983d814f.js": "/test/precache-manifest.a4acf4b8b13cee68dbac4063983d814f.js",
   "service-worker.js": "/test/service-worker.js"
 }
