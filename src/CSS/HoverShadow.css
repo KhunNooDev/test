@@ -1,0 +1,15 @@
+.shadow{
+  box-shadow: 10px 15px 7px #C7C7C7;
+}
+.grow-shadow {
+    box-shadow: 10px 15px 7px #C7C7C7;
+  -webkit-transition: all .2s ease-in-out;
+          transition: all .2s ease-in-out;
+}
+
+.grow-shadow:hover {
+  -webkit-transform: scale(1.05);
+  -ms-transform: scale(1.05);
+      transform: scale(1.05);
+  
+}

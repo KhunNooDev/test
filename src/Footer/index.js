@@ -1,10 +1,14 @@
 import React, { Component } from "react";
-  
+import { ButtonDropdown, DropdownToggle, DropdownMenu, DropdownItem } from 'reactstrap';
+
+
 class Footer extends Component {
 	constructor (props) {
 		super(props);
 	
+		this.toggle = this.toggle.bind(this);
 		this.state = {
+			dropdownOpen: false,
 			link1:'/',
 			link2:'/',
 			link3:'/',
@@ -12,6 +16,11 @@ class Footer extends Component {
 			youtubeURL:'https://bit.ly/2S3b9jk',
 		}
 	}
+	toggle() {
+		this.setState({
+		  dropdownOpen: !this.state.dropdownOpen
+		});
+	  }
   render() {
     return (
       <section id="footer">
@@ -59,9 +68,19 @@ class Footer extends Component {
 				</div>
 			</div>	
 			<div className="row">
+				<div className="col-xs-12 col-sm-12 col-md-12 mt-2 mt-sm-2 text-center">
+				<ButtonDropdown direction="up" isOpen={this.state.dropdownOpen} toggle={this.toggle}>
+      				<DropdownToggle caret><i className="fa fa-language" ariahidden="true"></i> เปลี่ยนภาษา</DropdownToggle>
+        			<DropdownMenu>
+          				<DropdownItem>ภาษาไทย</DropdownItem>
+          				<DropdownItem divider />
+          				<DropdownItem>English</DropdownItem>
+        			</DropdownMenu>
+      			</ButtonDropdown>
+				</div>
 				<div className="col-xs-12 col-sm-12 col-md-12 mt-2 mt-sm-2 text-center text-white">
-					<p><u><a href="/">TouchMyLike</a></u> {`${process.env.PUBLIC_URL}`} is ....................................................</p>
-						<p className="h6"><i className="fa fa-copyright"></i> All right Reversed.</p>
+					<p><u><a href="/">TouchMyLike</a></u> is ....................................................  </p>
+					<p><i className="fa fa-copyright"></i> All right Reversed.</p>
 				</div>
 			</div>
 		</div>
