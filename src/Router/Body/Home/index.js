@@ -8,14 +8,14 @@ class Home extends Component {
   render() {
     return (
         <div>
-          {/* <Body1 />
+          <Body1 />
           <div className="container">
                 <br />
                 <Body2 />
                 <br />
                 <Body3 />
                 <br />
-            </div> */}
+            </div>
         </div>
     );
   }

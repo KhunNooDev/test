@@ -9,7 +9,7 @@ class Home extends Component {
     return (
         <div>
           <Body1 />
-            <div className="container">
+          <div className="container">
                 <br />
                 <Body2 />
                 <br />

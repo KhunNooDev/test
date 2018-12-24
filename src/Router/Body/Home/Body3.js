@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import Iframe from 'react-iframe';
 import { Media } from 'reactstrap';
 import ScrollAnimation from 'react-animate-on-scroll';
 
@@ -14,22 +13,20 @@ class Body3 extends Component {
 render(){
   return (
     <div className="row">
-        <Iframe url={this.state.youtobeURL}
-        width="560px"
-        height="315px"
-        display="initial"
-        position="relative"
-        class="col-lg-4"
-        allowFullScreen/>
-      <div className="col-lg-6">
+      <div className="col-lg-6 embed-responsive embed-responsive-16by9 mx-auto" style={{width:"95%"}}>
+        <iframe src={this.state.youtobeURL} title="video" allowFullScreen="true" />
+      </div>
+      <div className="col-lg-6 my-3">
+      <div className="px-3 py-3 border rounded shadow">
       <ScrollAnimation animateIn='fadeIn' animateOut='fadeOut'>
         <Media body >
           <Media heading>
-            Media heading
+            คลิปแนะนำ
           </Media>
-          Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin commodo. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.
+          คลิปดี ดูซะ
         </Media>
       </ScrollAnimation>
+      </div>
       </div>
     </div>
   );

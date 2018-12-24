@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import ScrollAnimation from 'react-animate-on-scroll';
+import TML from '../../img/TML.png'
 
 class Body1 extends Component {
   constructor (props) {
@@ -7,7 +8,6 @@ class Body1 extends Component {
 
     this.state = {
         videoURL: 'https://bit.ly/2SOqqVj',
-        imgLogoURL: 'https://bit.ly/2DqFDIw'
     }
 }
   render() {
@@ -22,7 +22,7 @@ class Body1 extends Component {
                 Your browser does not support the video tag.
              </video>
           </div>          
-            <img className="w-auto h-50" src={this.state.imgLogoURL} alt="Logo" width="250" height="250"  />
+            <img className="w-auto h-50" src={TML} alt="Logo" width="250" height="250"  />
           </div>
         </div>
         <div className="layer bottom">

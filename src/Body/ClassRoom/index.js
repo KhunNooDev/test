@@ -5,7 +5,7 @@ import Body1 from './Body1';
 class ClassRoom extends Component {
   render() {
     return (
-        <div>
+        <div className="container">
           <Body1 />
         </div>
     );
