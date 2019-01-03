@@ -1,16 +1,13 @@
 import React from 'react'
-
-import bg2 from '../../img/2.jpg';
+// import { Parallax }  from 'react-parallax';
 import Swiper from './swiper'
-
-import AllBody from './swiperBody';
 
 export default class Home extends React.Component {
     render() {
-    return (
+    return(
         <div>
-            <AllBody/>
+            <Swiper/>
         </div>
-    );
-  }
+        );   
+    }
 }

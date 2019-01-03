@@ -1,19 +1,24 @@
 {
-  "name": "my-app",
+  "name": "test",
   "version": "0.1.0",
   "homepage": "https://khunnoodev.github.io/test/",
   "private": true,
   "dependencies": {
     "animate.css": "^3.7.0",
-    "bootstrap": "^4.1.3",
+    "bootstrap": "^4.2.1",
     "font-awesome": "^4.7.0",
     "gh-pages": "^2.0.1",
+    "jquery": "^3.3.1",
     "react": "^16.6.3",
     "react-animate-on-scroll": "^2.1.5",
     "react-dom": "^16.6.3",
+    "react-id-swiper": "^1.6.8",
+    "react-parallax": "^2.0.1",
     "react-router-dom": "^4.3.1",
-    "react-scripts": "^2.1.1",
-    "reactstrap": "^6.5.0"
+    "react-scripts": "^2.1.2",
+    "react-scroll": "^1.7.10",
+    "reactstrap": "^6.5.0",
+    "recompose": "^0.30.0"
   },
   "scripts": {
     "start": "react-scripts start",

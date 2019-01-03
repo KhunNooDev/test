@@ -1,5 +1,6 @@
-import React from 'react'
-import { Link, DirectLink, Element, Events, animateScroll as scroll, scrollSpy, scroller } from 'react-scroll'
+import React from 'react';
+import { Link, DirectLink, Element, Events, animateScroll as scroll, scrollSpy, scroller } from 'react-scroll';
+import img from '../img/logo.png';
 
 export default class Header extends React.Component {
   constructor(props) {
@@ -28,40 +29,40 @@ export default class Header extends React.Component {
       smooth: 'easeInOutQuart'
     })
   }
-  scrollToWithContainer() {
+  // scrollToWithContainer() {
 
-    let goToContainer = new Promise((resolve, reject) => {
+  //   let goToContainer = new Promise((resolve, reject) => {
 
-      Events.scrollEvent.register('end', () => {
-        resolve();
-        Events.scrollEvent.remove('end');
-      });
+  //     Events.scrollEvent.register('end', () => {
+  //       resolve();
+  //       Events.scrollEvent.remove('end');
+  //     });
 
-      scroller.scrollTo('scroll-container', {
-        duration: 800,
-        delay: 0,
-        smooth: 'easeInOutQuart'
-      });
+  //     scroller.scrollTo('scroll-container', {
+  //       duration: 800,
+  //       delay: 0,
+  //       smooth: 'easeInOutQuart'
+  //     });
 
-    });
+  //   });
 
-    goToContainer.then(() =>
-      scroller.scrollTo('scroll-container-second-element', {
-        duration: 800,
-        delay: 0,
-        smooth: 'easeInOutQuart',
-        containerId: 'scroll-container'
-      }));
-  }
-  componentWillUnmount() {
-    Events.scrollEvent.remove('begin');
-    Events.scrollEvent.remove('end');
-  }
+  //   goToContainer.then(() =>
+  //     scroller.scrollTo('scroll-container-second-element', {
+  //       duration: 800,
+  //       delay: 0,
+  //       smooth: 'easeInOutQuart',
+  //       containerId: 'scroll-container'
+  //     }));
+  // }
+  // componentWillUnmount() {
+  //   Events.scrollEvent.remove('begin');
+  //   Events.scrollEvent.remove('end');
+  // }
   render() {
     return (
         <header style={{position:"fixed",zIndex:5,width:"100%"}}>
             <nav className="navbar navbar-expand-lg navbar-light bg-dark">
-              <a className="navbar-brand text-white" href="#">TouchMylike</a>
+            <a className="navbar-brand text-white" href="#"><img className="mx-1" src={img} alt="" width="50px" height="50px"/> TouchMylike</a>
               <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span className="navbar-toggler-icon"></span>
               </button>
