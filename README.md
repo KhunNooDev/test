@@ -1,12 +1,13 @@
 # TouchMyLike
   วิธีการเอา Code มาใช้
-1) clone file จาก github ลงในเครื่อง
-2) เราจะใช้คำสั่ง npm start ไม่ได้เนื่องจากอะไรก็ไม่รู้ 'react-scripts start'
-3) เราต้องใช้คำสั่ง npm install react-scripts -g เเละ npm i -S react-scripts
-4) อันนี้คือ code ติดตั้ง Bootstrap: npm install bootstrap --save
-5) อันนี้คือ code ติดตั้ง Jquery: npm i jquery
-6) อันนี้คือ code ติดตั้ง React-parallax: npm install react-parallax --save
-7) จากนั้นก็ npm start ได้ตามปกติ
+  
+  
+  
+  
+1) `git clone https://github.com/KhunNooDev/test.git`
+2) cd test
+3) npm i
+4) npm start
 
   วิธีการ deploy react to github pages
 1) ไปที่ไฟล์ React 
