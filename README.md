@@ -12,15 +12,15 @@
   วิธีการ deploy react to github pages
   
 1) ติดตั้ง git ลงในไฟล์
-  - git init
-  - git add .
-  - git commit -m "พิมพ์อะไรก็ได้"
-  - git remote add origin https:// ที่อยู่ Repositories 
-  - git push origin master
+    - git init
+    - git add .
+    - git commit -m "พิมพ์อะไรก็ได้"
+    - git remote add origin https:// ที่อยู่ Repositories 
+    - git push origin master
 2) จากนั้นใช้ code: npm install --save gh-pages
 3) เปิดไฟล์ที่ชื่อว่า "package.json" 
-  - "homepage":"https://[username].github.io/[ชื่อ Repositories]/",
-  - ไปที่:
+    - "homepage":"https://[username].github.io/[ชื่อ Repositories]/",
+    - ไปที่:
   ```json
     "scripts": {
       "start": "react-scripts start",
